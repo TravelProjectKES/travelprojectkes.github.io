@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ExploreAlgarve</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">ExploreAlgarve</h1>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Algarve</h2>
+      <p>The Algarve is a stunning region in southern Portugal known for its beautiful beaches, picturesque coastal cliffs, and rich cultural heritage. It offers a perfect blend of natural beauty, historical sites, and outdoor activities.</p>
+    <section id="flight-accommodation">
+      <h2>Flight and Accommodation</h2>
+      <p>Make your travel to Algarve seamless with our flight and accommodation options. Choose from a range of
+        airlines and hotels that suit your preferences and budget. Whether you prefer a luxurious resort or a cozy
+        bed and breakfast, we have you covered.</p>
+      <p>Enjoy a comfortable journey and stay in Algarve, allowing you to fully immerse yourself in the beauty and
+        charm of the region.</p>
+		 <p>
+    To book flights, please visit our <a href="https://www.skyscanner.net/transport/flights/lond/fao/?adultsv2=2&cabinclass=economy&childrenv2=13%7C13&inboundaltsenabled=false&iym=2308&outboundaltsenabled=false&oym=2308&preferdirects=false&rtn=1&qp_prevProvider=ins_browse&qp_prevCurrency=GBP&priceSourceId=&qp_prevPrice=57&selectedoday=02&selectediday=09" target="blank">Flight Booking</a> page.
+  </p>
+   <p>
+    To book accommodation, please visit our <a href=https://www.airbnb.co.uk/rooms/901287398020424955?adults=2&children=2&check_in=2023-08-02&check_out=2023-08-09&federated_search_id=ae28c916-0f86-4b6a-bb23-b9822e51b1fd&source_impression_id=p3_1686082819_MBt7OgMRCQcOTenl"" target="blank">Accommodation Booking</a> page.
+  </p>
+    </section>
+	</div>
+	<br><br>
+  <section id="activities">
+    <div class="container">
+      <h2>Activities in Algarve</h2>
+      <div class="activity">
+        <h3>Sightseeing and Archaeology (Mr. John Savloy)</h3>
+        <p>Explore historic sites such as the Roman Ruins of Milreu, Castle of Silves, and the ancient city of Faro.</p>
+      </div>
+      <div class="activity">
+        <h3>Cycling, Swimming, and Spas (Mrs. Sarah Savloy)</h3>
+        <p>Enjoy cycling along scenic coastal routes, visit stunning beaches like Praia da Marinha, and indulge in spa treatments at luxury resorts.</p>
+      </div>
+      <div class="activity">
+        <h3>Rock Climbing and White Water Rafting (Fred)</h3>
+        <p>Visit the Rocha da Pena Natural Park, which offers rock climbing opportunities, and try white water rafting in the Arade River.</p>
+      </div>
+      <div class="activity">
+        <h3>Scuba Diving and Windsurfing (Joanna)</h3>
+        <p>Explore the underwater world through scuba diving trips along the Algarve coast and experience thrilling windsurfing lessons in Lagos or Sagres.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Photo Gallery</h2>
+      <div class="gallery-images">
+	  <center>
+		<img src="photos/1.jpg" alt="Image 1" onclick="openModal(this)">
+		<img src="photos/2.jpg" alt="Image 2" onclick="openModal(this)">
+        <img src="photos/3.jpg" alt="Image 3" onclick="openModal(this)">
+        <img src="photos/4.jpg" alt="Image 4" onclick="openModal(this)">
+        <img src="photos/5.jpg" alt="Image 5" onclick="openModal(this)">
+        <img src="photos/6.jpg" alt="Image 6" onclick="openModal(this)">
+        <img src="photos/7.jpg" alt="Image 7" onclick="openModal(this)">
+        <img src="photos/8.jpg" alt="Image 8" onclick="openModal(this)">
+        <img src="photos/9.jpg" alt="Image 9" onclick="openModal(this)">
+        <img src="photos/10.jpg" alt="Image 10" onclick="openModal(this)">
+        <img src="photos/11.jpg" alt="Image 11" onclick="openModal(this)">
+        <img src="photos/12.jpg" alt="Image 12" onclick="openModal(this)">
+		</center>
+      </div>
+  </div>
+    </div>
+  </section>
+
+  <section id="prices">
+    <div class="container">
+	<center>
+      <h2>Table of Prices</h2>
+      <div class="table-container">
+        <table id="price-table">
+		</center>
+          <thead>
+            <tr>
+              <th>Activity</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td href="https://www.skyscanner.net/transport/flights/lond/fao/?adultsv2=2&cabinclass=economy&childrenv2=13%7C13&inboundaltsenabled=false&iym=2308&outboundaltsenabled=false&oym=2308&preferdirects=false&rtn=1&qp_prevProvider=ins_browse&qp_prevCurrency=GBP&priceSourceId=&qp_prevPrice=57&selectedoday=02&selectediday=09" target="blank">Flights</td>
+              <td>£300</td>
+            </tr>
+            <tr>
+              <td href="https://www.airbnb.co.uk/rooms/901287398020424955?adults=2&children=2&check_in=2023-08-02&check_out=2023-08-09&federated_search_id=ae28c916-0f86-4b6a-bb23-b9822e51b1fd&source_impression_id=p3_1686082819_MBt7OgMRCQcOTenl""" target="blank">Accommodation</td>
+              <td>£222</td>
+            </tr>
+            <tr>
+              <td href="https://www.travel-in-portugal.com/attractions/faro-archaeological-museum.htm" target="blank">Sightseeing and Archaeology</td>
+              <td>£8</td>
+            </tr>
+            <tr>
+              <td href="https://www.algarve-bike-hire.co.uk/bike-hire-prices.php" target="blank">Cycling, Swimming, and Spas</td>
+              <td>£336</td>
+            </tr>
+            <tr>
+              <td href="https://www.algarve-sea-adventures.com/en/book-now" target="blank">Rock Climbing and White Water Rafting</td>
+              <td>£220</td>
+            </tr>
+            <tr>
+              <td href="https://easydivers.pt/mergulho/" target="blank">Scuba Diving and Windsurfing</td>
+              <td>£180</td>
+            </tr>
+			<tr>
+              <td style="font-size:160%;" ><b>Total</b></td>
+              <td style="font-size:160%;" ><b>£1,266</b></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
