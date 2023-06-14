@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #DDD2BC;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -37,7 +37,7 @@ header {
 }
 
 .title {
-  color: #274C77;
+  color: #39548F;
   font-size: 32px;
   margin: 0;
 }
